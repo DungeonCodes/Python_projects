@@ -1,0 +1,12 @@
+#input("Qual o seu nome?")
+nome = input('Digite seu Nome').strip()
+print('Analisando seu nome...')
+print('Seu nome em maiúsculo é:', nome.upper())
+print('Seu nome em minúsculo é:', nome.lower())
+print('Seu nome inteiro possui:', len(nome.replace(' ','')), 'letras')
+print('Seu nome inteiro possui:', (len(nome)-nome.count(' ')), 'letras')
+dividido = nome.split()
+print(dividido)
+#se aparecer -1 deu erro em encontrar o caractere
+print('Seu primeiro nome tem:',nome.find(' '), ' letras')
+print('Seu primeiro nome tem:',len(dividido[0]), ' letras')
