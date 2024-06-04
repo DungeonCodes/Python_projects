@@ -1,4 +1,5 @@
-cidade = input('Digite o nome de sua cidade')
-dividido = cidade.split()
+cidade = str(input('Digite o nome de sua cidade')).strip()
+saida = cidade[:5].upper()
+teste = saida == 'SANTO'
 
-print('Santo' in  dividido[0])
+print(teste)
