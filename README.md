@@ -1,2 +1,2 @@
-# Python_projects
- Repositório de práticas em Python
+# Projetos em Python
+ Repositório de práticas em Python para estudos iniciais.
